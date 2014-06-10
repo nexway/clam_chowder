@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["n2developer@nexway.co.jp", "iori.onda@gmail.com"]
   spec.summary       = %q{Nicely application-level wrapper for anti-virus software.}
   spec.description   = %q{Nicely application-level wrapper for anti-virus software.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nexway/clam_chowder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
