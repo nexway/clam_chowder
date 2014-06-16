@@ -1,7 +1,6 @@
-# README
+# clam_chower
 
-## Name
-clam_chower
+[![Build Status](https://travis-ci.org/nexway/clam_chowder.svg?branch=master)](https://travis-ci.org/nexway/clam_chowder)
 
 ## Description
 Nicely application-level wrapper for anti-virus software.
