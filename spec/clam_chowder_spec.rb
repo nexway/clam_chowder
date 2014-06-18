@@ -17,7 +17,7 @@ describe 'Scanner' do
     context 'ウイルスが未検知の場合' do
       let(:file_path) { 'spec/fixtures/innocent.txt' }
 
-      it { should be_false }
+      it { is_expected.to eq false }
     end
 
     context 'ウイルスが検知された場合' do
@@ -26,7 +26,7 @@ describe 'Scanner' do
 
       after { file.close }
 
-      it { should be_true }
+      it { is_expected.to eq true }
     end
 
     context '検知/未検知以外の場合' do
