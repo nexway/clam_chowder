@@ -1,6 +1,6 @@
 # clam_chower
 
-[![Build Status](https://travis-ci.org/nexway/clam_chowder.svg?branch=master)](https://travis-ci.org/nexway/clam_chowder)
+[![Build Status](https://travis-ci.org/nexway/clam_chowder.svg?branch=master)](https://travis-ci.org/nexway/clam_chowder) [![Code Climate](https://codeclimate.com/github/nexway/clam_chowder.png)](https://codeclimate.com/github/nexway/clam_chowder)
 
 Nicely application-level wrapper for anti-virus software.
 now supports on clamd only.
