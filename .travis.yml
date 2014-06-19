@@ -1,12 +1,15 @@
 language: ruby
 rvm:
-  - 2.0.0
-  - 2.1
+- 2.0.0
+- 2.1
 before_install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq clamav clamav-daemon
-  - sudo freshclam
-  - sudo echo 'TCPAddr 127.0.0.1' >> clamd.conf
-  - sudo echo 'TCPSocket 9321'    >> clamd.conf
-  - sudo clamd -c clamd.conf &
-  - sudo sleep 10
+- sudo apt-get update -qq
+- sudo apt-get install -qq clamav clamav-daemon
+- sudo freshclam
+- sudo echo 'TCPAddr 127.0.0.1' >> clamd.conf
+- sudo echo 'TCPSocket 9321'    >> clamd.conf
+- sudo clamd -c clamd.conf &
+- sudo sleep 10
+notifications:
+  webhooks:
+    secure: MCs20owiupNZWD+hM2GnSmH9ixEdMqiBNP1AZUMKK0H37V4Mue659SVdA6SQhk1PYH5t6Qzo7WbnRBqlB5d3IqjOH7bMLWFkSht97JgUErOnXH5yGhoNVavLBwPeW23p0QXNjCfAwgpELpZokDBJLfkzo7Pq4sSwqEdlGBxPYNk=
