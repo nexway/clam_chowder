@@ -62,7 +62,7 @@ ClamChowder.default_backend = Rails.env.production? ? :clamd : :stub
 - Ruby 2.0.0
 - Ruby 2.1.8
 - Ruby 2.2.4
-- Ruby 2.3.0
+- Ruby 2.3.1
 
 ## Dependencies
 - clamd >= 1.0.1
