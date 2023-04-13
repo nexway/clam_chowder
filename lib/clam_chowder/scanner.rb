@@ -21,7 +21,7 @@ module ClamChowder
           end
           file.rewind
           file.chmod(0644)
-          @backend.scan_file(file.path)
+          @backend.instream(file.path)
         end
       rescue => e
         raise ScanException.new(e)
