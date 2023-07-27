@@ -6,8 +6,8 @@ require 'clam_chowder/version'
 Gem::Specification.new do |spec|
   spec.name          = "clam_chowder"
   spec.version       = ClamChowder::VERSION
-  spec.authors       = ["NEXWAY", "Iori ONDA"]
-  spec.email         = ["n2developer@nexway.co.jp", "iori.onda@gmail.com"]
+  spec.authors       = ["NEXWAY"]
+  spec.email         = ["n2developer@nexway.co.jp"]
   spec.summary       = %q{Nicely application-level wrapper for anti-virus software.}
   spec.description   = %q{Nicely application-level wrapper for anti-virus software.}
   spec.homepage      = "https://github.com/nexway/clam_chowder"
