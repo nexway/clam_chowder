@@ -14,6 +14,10 @@ module ClamChowder
         parse_response(@clamd.scan(path))
       end
 
+      def instream(path)
+        parse_response(@clamd.instream(path))
+      end
+
       private
 
       def parse_response(str)
